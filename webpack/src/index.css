@@ -1,0 +1,57 @@
+.redcolor{
+    color:rgb(212, 63, 63);
+    font-family: sans-serif;
+    /* font-style: oblique; */
+    margin-top: 1px;
+    
+}
+.joker{
+   width:10%;
+   margin: auto;
+   margin:10px;
+}
+#logo{
+    display: flex;
+}
+
+#box{
+    width:340px;
+
+}
+#write{
+    width:330px;
+    height: 200px;
+}
+#save{
+    float: right;
+    width:100px;
+    margin-top:10px;
+}
+#title{
+    width:330px;
+    height: 40px;
+    font-size: large;
+}
+#boxflex{
+    display: flex;
+}
+.savetitle{
+    text-decoration: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0;
+}
+.savediv{
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    font-weight: 400;
+}
+#box1{
+    margin-left: 5%;
+
+}
+.divv{
+    width:450px;
+    padding:10px;
+    border: 1px solid rgb(192, 188, 188);
+}
