@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "Name": "ramesh",
+      "age": "25",
+      "department": "manU",
+      "address": "abc",
+      "maritalstatus": "✔",
+      "salary": "100000",
+      "photo": "Screenshot (112).png",
+      "id": 1
+    },
+    {
+      "Name": "sailesh",
+      "age": "29",
+      "department": "fcb",
+      "address": "abcdefgh",
+      "maritalstatus": "---",
+      "salary": "100000",
+      "photo": "Screenshot (112).png",
+      "id": 2
+    },
+    {
+      "Name": "Suresh",
+      "age": "21",
+      "department": "psg",
+      "address": "abcde",
+      "maritalstatus": "---",
+      "salary": "9999999",
+      "photo": "Screenshot (135).png",
+      "id": 3
+    },
+    {
+      "Name": "shiva",
+      "age": "23",
+      "department": "rm",
+      "address": "abcde",
+      "maritalstatus": "---",
+      "salary": "1234566",
+      "photo": "Screenshot (26).png",
+      "id": 4
+    },
+    {
+      "Name": "Arjun",
+      "age": "28",
+      "department": "psg",
+      "address": "abcdejkl",
+      "maritalstatus": "✔",
+      "salary": "90909090",
+      "photo": "Screenshot (26).png",
+      "id": 5
+    },
+    {
+      "Name": "Harish",
+      "age": "22",
+      "department": "rm",
+      "address": "abcqwerty",
+      "maritalstatus": "✔",
+      "salary": "12121212",
+      "photo": "Screenshot (26).png",
+      "id": 6
+    }
+  ]
+}

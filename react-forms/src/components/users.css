@@ -1,0 +1,46 @@
+.users{
+    display: flex;
+   
+ } 
+.users h5{
+  width:120px;
+  margin-top: 0;
+} 
+ .users img{
+    width:100px;
+    height: 80px;
+    margin-bottom:10px;
+    margin-left: 10px;
+}
+.table{
+    display: flex;
+
+}
+.table h3{
+    width:120px;
+    margin-bottom:0 ;
+
+} 
+.centre{
+   margin-left: 20%;
+   border:1px solid rgb(180, 176, 176);
+   width:70%;
+   margin-top:30px;
+   
+}
+
+.salary-flex{
+    display: flex;
+    border:1px solid black;
+}
+ .users button{
+    width:60px;
+    height:20px;
+    margin-left:30px;
+   
+    cursor: pointer;
+   
+}
+.users button:hover{
+    color:red;
+} 
