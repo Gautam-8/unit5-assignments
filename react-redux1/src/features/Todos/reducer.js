@@ -1,7 +1,7 @@
-import { ADD_TODO_ERROR, ADD_TODO_LOADING, ADD_TODO_SUCCESS, GET_TASK_LOADING, GET_TASK_SUCCESS, GET_TODO_ERROR, GET_TODO_LOADING, GET_TODO_SUCCESS } from "./actionTypes";
+import { ADD_TODO_ERROR, ADD_TODO_LOADING, ADD_TODO_SUCCESS, GET_COMPLETED, GET_TASK_LOADING, GET_TASK_SUCCESS, GET_TODO_ERROR, GET_TODO_LOADING, GET_TODO_SUCCESS } from "./actionTypes";
 
 
-const init = { loading:false , todos:[] , success: false , error : false , task:{}}
+const init = { loading:false , todos:[] , success: false , error : false , task:{} , completed:[]}
 
 export const reducer = (state = init, {type , payload}) => {
 
@@ -61,6 +61,12 @@ export const reducer = (state = init, {type , payload}) => {
                       loading : true,
                        
                   }
+
+                  case GET_COMPLETED :
+                      return {
+                          ...state,
+                          completed: payload
+                      }
 
              
             default :
