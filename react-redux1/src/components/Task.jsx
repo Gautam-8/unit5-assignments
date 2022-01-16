@@ -83,6 +83,7 @@ if(loading){
       return   (  <div className="mt-5">
 
      <Link className="text-2xl text-pink-800 mt-2 hover:border-black hover:border-2 hover:border-solid hover:px-5 hover:rounded-full" to={"/"}> home</Link>
+     <Link to={'/completed'}> <h1 className="text-cyan-700 underline text-2xl text-right mr-40 hover:font-semibold">Completed tasks</h1></Link>
 
        <h1 className="m-5 text-3xl underline text-sky-800">Todo</h1>
     <h1 className="text-2xl text-orange-900 animate-bounce">{task.title}</h1>
