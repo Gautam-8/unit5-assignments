@@ -14,5 +14,7 @@ export const GET_TODO_ERROR = 'GET_TODO_ERROR';
 export const GET_TASK_SUCCESS = 'GET_TASK_SUCCESS';
 export const GET_TASK_LOADING = 'GET_TASK_LOADING';
 
+export const GET_COMPLETED = "GET_COMPLETED";
+
 
 
