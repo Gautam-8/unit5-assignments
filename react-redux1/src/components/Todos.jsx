@@ -34,6 +34,7 @@ export const Todos = () => {
     
     (
         <div>
+             <Link to={'/completed'}> <h1 className="text-cyan-700 underline text-2xl text-right mr-40 hover:font-semibold">Completed tasks</h1></Link>
             <input value={text} type='text' placeholder="Enter Todo" className="ml-12 border-solid border-2 border-black rounded-xl text-center w-2/12"
             onChange={e => setText(e.target.value)} />
 
@@ -48,9 +49,13 @@ export const Todos = () => {
          <h4 className="w-fit m-auto mt-5 text-amber-700  underline hover:text-teal-600 hover:font-bold hover:transition duration-500 hover:text-3xl">{e.title}</h4>
          
          </Link> 
+
+   
          )
     
        )}
+
+                  
          </div>    
 
         
