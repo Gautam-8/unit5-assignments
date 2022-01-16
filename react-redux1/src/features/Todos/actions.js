@@ -1,5 +1,5 @@
 
-import { ADD_TODO_ERROR , ADD_TODO_LOADING ,ADD_TODO_SUCCESS, GET_TODO_SUCCESS, GET_TODO_ERROR , GET_TODO_LOADING, GET_TASK_SUCCESS, GET_TASK_ERROR, GET_TASK_LOADING} from "./actionTypes"
+import { ADD_TODO_ERROR , ADD_TODO_LOADING ,ADD_TODO_SUCCESS, GET_TODO_SUCCESS, GET_TODO_ERROR , GET_TODO_LOADING, GET_TASK_SUCCESS, GET_TASK_ERROR, GET_TASK_LOADING, GET_COMPLETED} from "./actionTypes"
 
 
 export const addTodoLoading = () => ({
@@ -117,6 +117,25 @@ export const oneTodo = (id) => (dispatch) => {
                  })
   
 }
+
+
+export const getCompleted = (data) => {
+   
+        return {
+            type : GET_COMPLETED,
+            payload:data
+             
+        }
+    }
+
+ export const fetchCompleted = () => (dispatch) => {
+
+        fetch('http://localhost:3001/todos?status=true')
+        .then((res) => res.json())
+        .then((res) => (console.log(res) , dispatch(getCompleted(res))))
+        .catch((err) => console.log(err))
+    }
+
 
 
 
